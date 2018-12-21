@@ -4,8 +4,8 @@ const moment = require("moment");
 const dateFormat = require('dateformat');
 var jimp = require('jimp')
 const fs = require("fs");      
-const dateFormat = require('dateformat');
-const client = new Discord.Client(); 
+
+
 const Canvas = require("canvas"); //npm i canvas
 var prefix = "÷"
 client.on('ready', () => {
