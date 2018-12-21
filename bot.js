@@ -13,8 +13,8 @@ client.on('ready', () => {
 });
  
 client.on('message', message => {
-    if (message.content === 'ping') {
-        message.reply('${client.ping} ms'};
+    if (message.content === 'السلام عليكم') {
+        message.reply('وعليكم سلام'};
     }
 });
 
